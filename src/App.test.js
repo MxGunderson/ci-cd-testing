@@ -7,3 +7,10 @@ test('is hello world present', () => {
   expect(helloWorld).toBeInTheDocument();
   console.log(helloWorld.outerHTML)
 });
+
+test('image is present', () => {
+  render(<App/>);
+  const imagePresent = screen.getByTestId(/image/i)
+  expect(imagePresent).not.toBe(false)
+  expect(imagePresent).toBeVisible()
+});
