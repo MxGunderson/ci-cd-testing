@@ -14,7 +14,9 @@ jobs:
     name: Run linters
     runs-on: ubuntu-latest
   build:
+  
     runs-on: ubuntu-latest
+    
     strategy:
       matrix:
         node-version: [14.x]
