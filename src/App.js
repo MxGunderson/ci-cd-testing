@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ButtonOne from './components/ButtonOne';
 import ButtonTwo from './components/ButtonTwo';
+import ButtonThree from './components/ButtonThree';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <h1>Hello World</h1>
         <ButtonOne />
         <ButtonTwo />
+        <ButtonThree />
       </header>
     </div>
   );
